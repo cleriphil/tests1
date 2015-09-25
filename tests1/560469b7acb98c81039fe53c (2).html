@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ <head profile="http://selenium-ide.openqa.org/profiles/test-case">
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <link rel="selenium.base" href="https://gocardsmith.co" />
+ <title>play-board, add and move cards</title>
+ </head>
+ <body>
+ <table cellpadding="1" cellspacing="1" border="1">
+ <thead>
+ <tr>
+ <td rowspan="1" colspan="3">play-board, add and move cards</td>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>open</td>
+ <td>/?play=true&_ga=1.190256747.1198651943.1443129519</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=button.action-button</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=button.action-button</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>pause</td>
+ <td>20000</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item.add-me > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item.add-me > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(2) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(2) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(8) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(8) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item.add-me</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item.add-me</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(10) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(10) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=input[type="range"]</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=input[type="range"]</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=input[type="range"]</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>type</td>
+ <td>css=input[type="range"]</td>
+ <td>0.53</td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item.add-me</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item.add-me</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > button.action.menu.card-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(2) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(2) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=button.action.menu.board-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=button.action.menu.board-menu > svg.icon</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menu.depth-2 > menuitem:nth-of-type(3)</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menu.depth-2 > menuitem:nth-of-type(3)</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=button.action.menu.board-menu > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=button.action.menu.board-menu > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menu.depth-2 > menuitem:nth-of-type(3)</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menu.depth-2 > menuitem:nth-of-type(3)</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=.bottom > header</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=.bottom > header</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=.arrow</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=.arrow</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=.bottom > section > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=.bottom > section > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=.bottom > section > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=.bottom > section > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(5) > .card.fill > button.action.menu.card-menu > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(5) > .card.fill > button.action.menu.card-menu > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(3) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(3) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .caption-box.inverse > .caption-text</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .caption-box.inverse > .caption-text</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=.card-detail</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=.card-detail</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=.add-field-box > button.action.menu.card-menu > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=.add-field-box > button.action.menu.card-menu > svg.icon > use</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(8) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=menuitem.colors > .picker-wrapper.color-wrapper:nth-of-type(8) > button.pick-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#popup</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#popup</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(3) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>click</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(4) > .card.fill > .image-box</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>assertElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(1) > .cell-contents > .fill.layout > .tile.tile</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>assertElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile > .layout-item:nth-of-type(1) > .card.fill</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForPageToLoad</td>
+ <td></td>
+ <td></td>
+ </tr>
+<tr>
+ <td>waitForElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile</td>
+ <td></td>
+ </tr>
+<tr>
+ <td>assertElementPresent</td>
+ <td>css=#grid > tbody > tr:nth-of-type(1) > td.thickBorder:nth-of-type(2) > .cell-contents > .fill.layout > .tile.tile</td>
+ <td></td>
+ </tr>
+</tbody>
+ </table>
+ </body>
+ </html>
